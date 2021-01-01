@@ -1,0 +1,6 @@
+.registerPage {
+  width: 98vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

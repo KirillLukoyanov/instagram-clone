@@ -1,0 +1,32 @@
+.footer {
+  width: 100vw;
+  bottom: 30px;
+  position: absolute;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__basic {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  width: 750px;
+  flex-wrap: wrap;
+}
+
+.footer__link {
+  color: gray;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.insFromFacebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: gray;
+  margin-top: 20px;
+}

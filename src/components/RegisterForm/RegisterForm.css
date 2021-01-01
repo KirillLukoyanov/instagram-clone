@@ -1,0 +1,142 @@
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+}
+
+.registerForm__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.registerForm__description {
+  width: 270px;
+}
+
+.registerForm__description p {
+  color: gray;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+}
+
+.registerForm__logo img {
+  width: 180px;
+}
+
+.registerForm__header {
+  width: 350px;
+  height: 560px;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.registerForm__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.registerForm__inputField {
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  padding: 5px 10px;
+  border-radius: 5px;
+  width: 250px;
+  margin-top: 10px;
+  height: 25px;
+}
+
+.registerForm__haveAccount {
+  width: 350px;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  padding: 5px 10px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.registerForm__haveAccount p {
+  margin-right: 7px;
+}
+
+.registerForm__haveAccount a {
+  text-decoration: none;
+  font-weight: 500;
+  color: rgb(0, 122, 170);
+}
+
+.registerForm__inputField label {
+  position: relative;
+}
+
+.span {
+  position: absolute;
+  color: rgb(124, 124, 124);
+  font-size: 12px;
+  width: 250px;
+  top: 5px;
+  z-index: 2;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.registerForm__inputField input {
+  width: 250px;
+  border: 0;
+  position: absolute;
+  top: 3px;
+  left: -1px;
+  z-index: 1;
+}
+
+.span.active {
+  font-size: 11px;
+  top: -2px;
+}
+
+.registerForm__inputField input.active {
+  font-size: 12px;
+  top: 10px;
+}
+
+Button {
+  margin-top: 10px;
+}
+
+.registerForm__decorativeOr {
+  width: 270px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.registerForm__decorativeBar {
+  width: 100px;
+  height: 1px;
+  background-color: rgba(124, 124, 124, 0.315);
+}
+
+.registerForm__or {
+  font-weight: 500;
+  color: rgb(124, 124, 124);
+}
+
+.registerForm__policy {
+  width: 270px;
+}
+
+.registerForm__policy p {
+  text-align: center;
+  font-size: 13px;
+  color: gray;
+}
